@@ -1,8 +1,8 @@
 from duckduckgo_search import DDGS
 from google import genai
 
-
-client = genai.Client(api_key="GOOGLE_API_KEY")
+# API key should be set as environment variable (not hardcoded for security)
+client = genai.Client(api_key=os.getenv("GOOGLE_API_KEY"))
 
 def search_web(query):
     results = []
