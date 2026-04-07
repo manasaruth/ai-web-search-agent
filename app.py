@@ -2,7 +2,7 @@ from duckduckgo_search import DDGS
 from google import genai
 
 
-client = genai.Client(api_key="AIzaSyDT9_0vVHvGx96Va_Kf47jtFdh7jvsbKhw")
+client = genai.Client(api_key="GOOGLE_API_KEY")
 
 def search_web(query):
     results = []
