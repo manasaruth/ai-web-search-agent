@@ -1,3 +1,4 @@
+import os
 from duckduckgo_search import DDGS
 from google import genai
 
